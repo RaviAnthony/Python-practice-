@@ -1,6 +1,7 @@
 import sys
 
 def fact():
+    """ factorial"""
     print sys.path
     factorial=0
     for i in range(30):
