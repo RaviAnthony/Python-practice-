@@ -6,13 +6,10 @@ fabc.write(line1)
 fabc.close()
 
 a=open("vijay.txt", 'r')
-b=[]
+b={}
 #print dir(a)
-for i in a.readlines():
-    i.split(" ")
-    #print i
+for i in a:
     if i not in b:
         b.append(i)
         print b
-        c = b.count(i)
-        print i , c
+        
