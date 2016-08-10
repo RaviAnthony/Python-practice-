@@ -120,16 +120,39 @@ Mean = sum(c)/b
 print Mean 
 """
 #Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included)
-
+"""
 a =[]
 #b =[]
 
 for i in range(1500,2700):
-    if (i%7==0)& (i/5==0):
+    if (i%7==0)& (i%5 ==0):
         a.append(i)
-    
-    
+       
 print a
+
+
+"""
+
+#Write a Python program to guess a number between 1 to 9.
+# User is prompted to enter a guess. If the user guess wrong then the prompt appears again until the guess is correct, on successful guess user will get a "Well guessed!" message, and the program will exit.
+def guess_num():
+    guess = int(input("enter the guess number : "))
+
+    if guess< 10:
+        print"your guess is correct"
+    else:   
+        print " your guess is wrong please enter the correct guess "
+        guess_num()
+guess_num()
+
+
+
+
+
+
+
+
+
 
 
 

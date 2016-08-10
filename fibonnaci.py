@@ -23,4 +23,4 @@ print a[0]
 print a[1]
 for i in range(2,n):
     a[i] = a[i-1] + a[i-2]
-    print a[i]
+    print a[i] 

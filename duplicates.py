@@ -12,6 +12,7 @@ print remove_duplicates(a)
 
 
 
+
 """a=[1,1,1,1,1,2,3,4,5,4,4,4,4,3,4,5]
 b =int(input("Enter a number: "))
 print "Count for b : ", a.count(b)

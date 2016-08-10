@@ -130,7 +130,7 @@ Count occurences of each letter and print them like "h-2, ..."
 '''    
 
 '''
-a = " hello how are you"
+a = " hello how are you "
 b = a.replace(" ","")
 print a 
 print b

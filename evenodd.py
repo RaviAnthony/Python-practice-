@@ -26,5 +26,5 @@ q = []
 for i in s:
     if i == 'a':
         q.append(i)
-print q
+print 
   
