@@ -93,6 +93,7 @@ _slice = tuplex [:7]
 
 print _slice
 """
+"""
 #Find the index of a item of a tuple
 
 a = tuple("hello what are you doing")
@@ -102,6 +103,8 @@ print (a)
 index = a.index ("w")
 print index
 
+
+"""
 
 
 
